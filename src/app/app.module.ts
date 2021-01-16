@@ -8,10 +8,10 @@ import { ContactComponent } from './components/contact/contact.component';
 import { RouterModule, Routes, Router } from '@angular/router';
 
 const rutas: Routes = [
-  { path: 'inicio', component: HomeComponent },
-  { path: 'nosotros', component: AboutComponent},
-  { path: 'contacto', component: ContactComponent },
- { path: '',   redirectTo: '/inicio', pathMatch: 'full' },
+  { path: 'Aloe-vera/inicio', component: HomeComponent },
+  { path: 'Aloe-vera/nosotros', component: AboutComponent},
+  { path: 'Aloe-vera/contacto', component: ContactComponent },
+ { path: '',   redirectTo: 'Aloe-vera/inicio', pathMatch: 'full' },
 ];
 
 
