@@ -10,10 +10,10 @@ import { RouterModule, Routes, Router } from '@angular/router';
 
 
 const rutas: Routes = [
-  { path: 'Aloe-vera/inicio', component: HomeComponent },
+  { path: '/Aloe-vera/inicio', component: HomeComponent },
   { path: 'Aloe-vera/nosotros', component: AboutComponent},
   { path: 'Aloe-vera/contacto', component: ContactComponent },
- { path: '',   redirectTo: 'Aloe-vera/inicio', pathMatch: 'full' },
+ { path: '',   redirectTo: '/Aloe-vera/inicio', pathMatch: 'full' },
 ];
 
 
