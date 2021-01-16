@@ -7,8 +7,6 @@ import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { RouterModule, Routes, Router } from '@angular/router';
 
-
-
 const rutas: Routes = [
   { path: 'Aloe-vera/inicio', component: HomeComponent },
   { path: 'Aloe-vera/nosotros', component: AboutComponent},
@@ -23,8 +21,6 @@ const rutas: Routes = [
     HomeComponent,
     AboutComponent,
     ContactComponent,
-  
-
     
   ],
   imports: [
